@@ -166,7 +166,12 @@ void application_impl::reset_p2p_node(const fc::path& data_dir)
    {
       vector<string> seeds = {
          "node0.barc.io:7002",
-         "node1.barc.io:7002"
+         "node1.barc.io:7002",
+         "node2.barc.io:7002",
+         "node3.barc.io:7002",
+         "node4.barc.io:7002",
+         "node5.barc.io:7002",
+         "node6.barc.io:7002"
       };
       for( const string& endpoint_string : seeds )
       {
